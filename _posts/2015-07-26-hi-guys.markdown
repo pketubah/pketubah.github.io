@@ -1,0 +1,7 @@
+---
+title:  "Hi Guys"
+date:   2015-07-26 14:28:00
+description: Pleased to meet you!
+---
+
+Just like to say hello, since this is my first post here on this blog. If you want to know more about me, take a look at the [About]({{ site.baseurl }}about/) page. There's not much at the moment, but I'll add more and more as time goes by.

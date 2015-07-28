@@ -1,0 +1,36 @@
+name: Prague-ketubah.com
+description: A blog about my life with tech stuff and dogs
+meta_description: "Here you can find everything you need to know about dogs, technology and some other stuff from my life."
+
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://pketubah.github.io/prague-ketubah/'
+# ska andra till riktig url med www sen
+# kan testa att andra baseurl: http://pketubah.github.io/prague-ketubah/
+
+
+# Details for the RSS feed generator
+url:            'http://www.prague-ketubah.com'
+author:         'Prague-ketubah.com'
+#authorTwitter:  'YourTwitterUsername'
+
+permalink:       /:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
