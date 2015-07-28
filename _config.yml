@@ -9,9 +9,7 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://pketubah.github.io/prague-ketubah/'
-# ska andra till riktig url med www sen
-# kan testa att andra baseurl: http://pketubah.github.io/prague-ketubah/
+domain_name: 'http://www.prague-ketubah.com/'
 
 
 # Details for the RSS feed generator
