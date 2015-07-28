@@ -1,0 +1,36 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteBase /
+
+SetEnvIfNoCase User-Agent .*rogerbot.* bad_bot
+SetEnvIfNoCase User-Agent .*exabot.* bad_bot
+SetEnvIfNoCase User-Agent .*mj12bot.* bad_bot
+SetEnvIfNoCase User-Agent .*dotbot.* bad_bot
+SetEnvIfNoCase User-Agent .*gigabot.* bad_bot
+SetEnvIfNoCase User-Agent .*ahrefsbot.* bad_bot
+SetEnvIfNoCase User-Agent .*sitebot.* bad_bot
+SetEnvIfNoCase User-Agent .*BlekkoBot.* bad_bot
+SetEnvIfNoCase User-Agent .*Semrush.* bad_bot
+SetEnvIfNoCase User-Agent .*BLEXBot.* bad_bot
+SetEnvIfNoCase User-Agent .*Majestic-12.* bad_bot
+SetEnvIfNoCase User-Agent .*Majestic-SEO.* bad_bot
+SetEnvIfNoCase User-Agent .*DSearch.* bad_bot
+SetEnvIfNoCase User-Agent .*spbot.* bad_bot
+SetEnvIfNoCase User-Agent .*meanpathbot.* bad_bot
+SetEnvIfNoCase User-Agent .*archive.org_bot.* bad_bot
+SetEnvIfNoCase User-Agent .*SEOkicks-Robot.* bad_bot
+<Limit GET POST HEAD>
+Order Allow,Deny
+Allow from all
+Deny from env=bad_bot
+</Limit>
+
+
+RewriteCond %{QUERY_STRING}  ^$
+RewriteRule ^links\.php$ /? [R=301,NE,NC,L]
+
+RewriteCond %{QUERY_STRING}  ^$
+RewriteRule ^what-is-ketubah\.php$ /? [R=301,NE,NC,L]
+
+</IfModule>
