@@ -10,7 +10,7 @@ As the number of people availing the online dating facility is increasing, so is
 
 ##Boundaries Do Not Matter
 
-We are all living in a world full of boundaries. Our continents have boundaries, countries have boundary and even within the country, states have boundaries too. All these boundaries make it very tough to travel far and find a suitable match for yourself. But what if, your dreamguy or dreamgirl is living in some part of the world which is far away from where you live. Internet and the online dating sites help you in meeting this dream person irrespective of their location. Through the use of "dejtingsidor" or an online dating site, you can meet anyone belonging to nay country, caste or race. Boundaries do not matter anymore. 
+We are all living in a world full of boundaries. Our continents have boundaries, countries have boundary and even within the country, states have boundaries too. All these boundaries make it very tough to travel far and find a suitable match for yourself. But what if, your dreamguy or dreamgirl is living in some part of the world which is far away from where you live. Internet and the online dating sites help you in [meeting this dream person](http://www.pof.com/) irrespective of their location. Through the use of "dejtingsidor" or an online dating site, you can meet anyone belonging to nay country, caste or race. Boundaries do not matter anymore. 
 
 ![dejtingsajter]({{ site.baseurl }}assets/images/dejtingsajter.jpg)
 
